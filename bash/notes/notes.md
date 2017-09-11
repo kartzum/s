@@ -41,3 +41,5 @@ do
 done
 }
 ```
+### Background Jobs
+[Bash Trick: Watching Multiple Background Jobs](http://jeremy.zawodny.com/blog/archives/010717.html)
