@@ -43,3 +43,13 @@ done
 ```
 ### Background Jobs
 [Bash Trick: Watching Multiple Background Jobs](http://jeremy.zawodny.com/blog/archives/010717.html)
+
+### Codes
+
+* eq - equal
+* ne - not equal
+* lt - less than
+* le - less than or equal
+* gt - greater than
+* ge - greater than or equal
+
