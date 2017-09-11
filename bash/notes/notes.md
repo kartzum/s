@@ -44,6 +44,46 @@ done
 ### Background Jobs
 [Bash Trick: Watching Multiple Background Jobs](http://jeremy.zawodny.com/blog/archives/010717.html)
 
+```
+#!/bin/bash
+
+FAIL=0
+
+echo "starting"
+
+./sleeper 1 0 &
+./sleeper 1 0 &
+./sleeper 2 1 &
+./sleeper 1 0 &
+
+for job in `jobs -p`
+do
+    echo ${job}
+    wait ${job} || let "FAIL+=1"
+done
+
+echo ${FAIL}
+
+if [ "$FAIL" == "0" ];
+then
+    echo "YAY!"
+else
+    echo "FAIL! ($FAIL)"
+fi
+```
+
+```
+#!/usr/bin/perl -w
+
+use strict;
+
+my $time = $ARGV[0] || 1;
+my $exit = $ARGV[1] || 0;
+
+sleep $time;
+exit  $exit;
+```
+
 ### Codes
 
 * eq - equal
