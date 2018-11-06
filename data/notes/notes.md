@@ -29,7 +29,7 @@ df1.show(5)
 
 http://elar.urfu.ru/bitstream/10995/48459/1/978-5-9544-0079-3_2017.pdf
 
-[Многоугольник и функция распределения дискретной случайной величины] (http://mathprofi.ru/funkcia_raspredeleniya_dsv.html)
+[Многоугольник и функция распределения дискретной случайной величины](http://mathprofi.ru/funkcia_raspredeleniya_dsv.html)
 
 [Математическое ожидание характеризует среднее значение случайной величины.](https://studfiles.net/preview/1438520/)
 
