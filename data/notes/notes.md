@@ -50,6 +50,10 @@ http://aermolenko.ru/wp-content/uploads/2015/09/Gubar-L-N-Ermolenko-A-V-Teoriya-
 
 [Математические ожидания и дисперсии стандартных распределений](https://nsu.ru/mmf/tvims/chernova/tv/lec/node46.html)
 
+https://rextester.com/l/r_online_compiler
+
+https://kpfu.ru/docs/F568269105/metodichka_R_1.pdf
+
 ## Links
 
 * [supervised-learning](https://ru.coursera.org/learn/supervised-learning/)
